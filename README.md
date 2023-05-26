@@ -62,7 +62,7 @@ The calibration parameters enable the correction of geometric distortions caused
 
 ```shell
 git clone https://github.com/your-username/your-repo.git
-'''
+shell```
 
 # Usage:
   1.Place your checkerboard images in the images directory.
