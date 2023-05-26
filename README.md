@@ -62,8 +62,9 @@ The calibration parameters enable the correction of geometric distortions caused
 
 ```shell
 git clone https://github.com/your-username/your-repo.git
+'''
 
-### Usage:
+# Usage:
   1.Place your checkerboard images in the images directory.
   2.Run the program:  python camera_calibration.py
   3.he program will detect the corners of the checkerboard in each image, refine the corner coordinates, and perform camera calibration.
@@ -72,7 +73,7 @@ git clone https://github.com/your-username/your-repo.git
   5.The undistorted images will be saved in the undistorted_images directory.
   
   
-### Results :
+# Results :
 The calibration parameters enable the correction of geometric distortions caused by the camera lens, allowing for precise measurements and accurate computer vision tasks. The mathematical aspects of the algorithm involve solving a system of equations to estimate the camera matrix, distortion coefficients, and the 3D-2D point correspondences.
 
 For more information, refer to the Zhang's camera calibration algorithm and the OpenCV documentation.
