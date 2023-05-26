@@ -51,8 +51,10 @@ The calibration parameters enable the correction of geometric distortions caused
 
 ### Prerequisites
 
-- Python (version X.X.X)
-- OpenCV library (version X.X.X)
+- Python
+- OpenCV library
+- glob library
+- numpy
 
 ### Installation
 
